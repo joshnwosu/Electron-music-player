@@ -1,0 +1,24 @@
+{
+  "name": "electron-music-player",
+  "version": "1.0.0",
+  "description": "music player",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshnwosu/Electron-music-player.git"
+  },
+  "author": "Joshua Nwosu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshnwosu/Electron-music-player/issues"
+  },
+  "homepage": "https://github.com/joshnwosu/Electron-music-player#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "music-metadata": "^3.5.1",
+    "util": "^0.11.1"
+  }
+}
