@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="ionicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <!-- page -->
+  <div id="page">
+    
+    <!-- container -->
+    <div class="container">
+      
+      <!-- side-nav -->
+      <div class="side-nav">
+        <nav class="nav">
+          <div class="logo">
+            <span><i class="ion-headphone"></i></span>
+            <h3>Tomato</h3>
+          </div>
+          <ul>
+            <div class="heading">Media</div>
+            <li>
+              <span class="label-icon"><i class="ion-ios-search-strong"></i></span>
+              <span class="label">Search</span>
+            </li>
+            <li class="active">
+              <span class="label-icon"><i class="ion-radio-waves"></i></span>
+              <span class="label">Songs</span>
+            </li>
+            <li>
+              <span class="label-icon"><i class="ion-disc"></i></span>
+              <span class="label">Albums</span>
+            </li>
+            <li>
+              <span class="label-icon"><i class="ion-person"></i></span>
+              <span class="label">Artists</span>
+            </li>
+            <li>
+              <span class="label-icon"><i class="ion-android-folder"></i></span>
+              <span class="label">Folders</span>
+            </li>
+          </ul>
+          
+          <ul>
+            <div class="heading">Auto-playlist</div>
+            <li>
+              <span class="label-icon"><i class="ion-heart"></i></span>
+              <span class="label">My favorite</span>
+            </li>
+            <li>
+              <span class="label-icon"><i class="ion-arrow-graph-down-right"></i></span>
+              <span class="label">Recently played</span>
+            </li>
+            <li>
+              <span class="label-icon"><i class="ion-arrow-graph-down-left"></i></span>
+              <span class="label">Most played</span>
+            </li>
+          </ul>
+          
+          <ul>
+            <div class="heading">
+              <span>Playlist</span>
+              <span class="add-btn">+</span>
+            </div>
+            <li>
+              <span class="label-icon"><i class="ion-ios-flame-outline"></i></span>
+              <span class="label">Dance hall</span>
+            </li>
+            <li>
+              <span class="label-icon"><i class="ion-ios-flame-outline"></i></span>
+              <span class="label">My own tones</span>
+            </li>
+            
+          </ul>
+          
+        </nav>
+      </div>
+      
+      <!-- main -->
+      <main class="main">
+        <div class="main-header">
+          <div class="main-title">
+            <h4>Music Library</h4>
+          </div>
+          <div class="main-option">
+            <span class="song-amount">
+              <span><i class="ion-disc"></i></span>
+              <h4>924 Songs</h4>
+            </span>
+            <span class="song-sort">
+              <span style="font-size: 14px;"><h6>A-Z</h6></span>
+              <h4>Sort Songs</h4>
+              <span><i class="ion-android-arrow-dropdown"></i></span>
+            </span>
+            <span class="song-shuffle">
+              <span><i class="ion-ios-shuffle-strong"></i></span>
+              <h4>Shuffle All</h4>
+            </span>
+            <span class="song-equalizer">
+              <span><i class="ion-android-options"></i></span>
+              <h4>Equalizer</h4>
+            </span>
+            <span class="song-setting">
+              <span><i class="ion-android-settings"></i></span>
+              <h4>Settings</h4>
+            </span>
+          </div>
+        </div>
+        <div class="main-wrapper">
+          
+          <div class="music-list">
+            <!-- <table class="list"> -->
+              <div class="list-header">
+                <span class="num"><h5>s/n</h5></span>
+                <span class="title"><h5>Title</h5></span>
+                <span class="time"><h5>Time</h5></span>
+                <span class="artist"><h5>Artist</h5></span>
+                <span class="album"><h5>Album</h5></span>
+                <span class="like"><h5>Like</h5></span>
+                <span class="more"><h5>More</h5></span>
+              </div>
+              <div class="list-container">
+                <div class="headline">#</div>
+                <div class="song">
+                  <span class="num"><h4>01</h4></span>
+                  <span class="title"><h4>Bad blood</h4></span>
+                  <span class="time"><h4>03:50</h4></span>
+                  <span class="artist"><h4>Taylor Swift</h4></span>
+                  <span class="album"><h4>Red</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="song playing">
+                  <span class="num"><h4>02</h4></span>
+                  <span class="title"><h4>Wreck it ralph</h4></span>
+                  <span class="time"><h4>04:00</h4></span>
+                  <span class="artist"><h4>Owl city</h4></span>
+                  <span class="album"><h4>Animation</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="song">
+                  <span class="num"><h4>03</h4></span>
+                  <span class="title"><h4>Perfect</h4></span>
+                  <span class="time"><h4>03:50</h4></span>
+                  <span class="artist"><h4>One Direction</h4></span>
+                  <span class="album"><h4>Made in the a.m</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="song">
+                  <span class="num"><h4>02</h4></span>
+                  <span class="title"><h4>Dance in the rain</h4></span>
+                  <span class="time"><h4>04:00</h4></span>
+                  <span class="artist"><h4>2face Idibia</h4></span>
+                  <span class="album"><h4>2baba</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="song">
+                  <span class="num"><h4>03</h4></span>
+                  <span class="title"><h4>Perfect</h4></span>
+                  <span class="time"><h4>03:50</h4></span>
+                  <span class="artist"><h4>One Direction</h4></span>
+                  <span class="album"><h4>Made in the a.m</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="song">
+                  <span class="num"><h4>02</h4></span>
+                  <span class="title"><h4>Dance in the rain</h4></span>
+                  <span class="time"><h4>04:00</h4></span>
+                  <span class="artist"><h4>2face Idibia</h4></span>
+                  <span class="album"><h4>2baba</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="song">
+                  <span class="num"><h4>03</h4></span>
+                  <span class="title"><h4>Perfect</h4></span>
+                  <span class="time"><h4>03:50</h4></span>
+                  <span class="artist"><h4>One Direction</h4></span>
+                  <span class="album"><h4>Made in the a.m</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="headline">A</div>
+                <div class="song">
+                  <span class="num"><h4>02</h4></span>
+                  <span class="title"><h4>Dance in the rain</h4></span>
+                  <span class="time"><h4>04:00</h4></span>
+                  <span class="artist"><h4>2face Idibia</h4></span>
+                  <span class="album"><h4>2baba</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="song">
+                  <span class="num"><h4>03</h4></span>
+                  <span class="title"><h4>Perfect</h4></span>
+                  <span class="time"><h4>03:50</h4></span>
+                  <span class="artist"><h4>One Direction</h4></span>
+                  <span class="album"><h4>Made in the a.m</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="song">
+                  <span class="num"><h4>02</h4></span>
+                  <span class="title"><h4>Dance in the rain</h4></span>
+                  <span class="time"><h4>04:00</h4></span>
+                  <span class="artist"><h4>2face Idibia</h4></span>
+                  <span class="album"><h4>2baba</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="song">
+                  <span class="num"><h4>03</h4></span>
+                  <span class="title"><h4>Perfect</h4></span>
+                  <span class="time"><h4>03:50</h4></span>
+                  <span class="artist"><h4>One Direction</h4></span>
+                  <span class="album"><h4>Made in the a.m</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="song">
+                  <span class="num"><h4>02</h4></span>
+                  <span class="title"><h4>Dance in the rain</h4></span>
+                  <span class="time"><h4>04:00</h4></span>
+                  <span class="artist"><h4>2face Idibia</h4></span>
+                  <span class="album"><h4>2baba</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="song">
+                  <span class="num"><h4>03</h4></span>
+                  <span class="title"><h4>Perfect</h4></span>
+                  <span class="time"><h4>03:50</h4></span>
+                  <span class="artist"><h4>One Direction</h4></span>
+                  <span class="album"><h4>Made in the a.m</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="song">
+                  <span class="num"><h4>02</h4></span>
+                  <span class="title"><h4>Dance in the rain</h4></span>
+                  <span class="time"><h4>04:00</h4></span>
+                  <span class="artist"><h4>2face Idibia</h4></span>
+                  <span class="album"><h4>2baba</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="headline">B</div>
+                <div class="song">
+                  <span class="num"><h4>03</h4></span>
+                  <span class="title"><h4>Perfect</h4></span>
+                  <span class="time"><h4>03:50</h4></span>
+                  <span class="artist"><h4>One Direction</h4></span>
+                  <span class="album"><h4>Made in the a.m</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="song">
+                  <span class="num"><h4>02</h4></span>
+                  <span class="title"><h4>Dance in the rain</h4></span>
+                  <span class="time"><h4>04:00</h4></span>
+                  <span class="artist"><h4>2face Idibia</h4></span>
+                  <span class="album"><h4>2baba</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+                <div class="song">
+                  <span class="num"><h4>03</h4></span>
+                  <span class="title"><h4>Perfect</h4></span>
+                  <span class="time"><h4>03:50</h4></span>
+                  <span class="artist"><h4>One Direction</h4></span>
+                  <span class="album"><h4>Made in the a.m</h4></span>
+                  <span class="like"><h4><i class="ion-heart"></i></h4></span>
+                  <span class="more"><h4><i class="ion-android-more-horizontal"></i></h4></span>
+                </div>
+              </div>
+              <!-- </table> -->
+            </div>
+            
+          </div>
+        </main>
+        
+      </div>
+      
+      <!-- controls -->
+      <div class="player-control">
+        <div class="media-row media">
+          <div class="poster">
+            <img src="poster.jpg" alt="" style="width: 70px; height: 50px;">
+          </div>
+          <div class="tag">
+            <div class="title">Wreck it ralph</div>
+            <div class="artist">Owl city</div>
+          </div>
+          <span class="heart"><i class="ion-heart"></i></span>
+        </div>
+        <div class="media-action">
+          <div class="media-btn">
+            <span><i class="ion-ios-shuffle-strong"></i></span>
+            <span><i class="ion-ios-skipbackward"></i></span>
+            <div class="playOrpause">
+              <span><i class="ion-ios-play"></i></span>
+            </div>
+            <span><i class="ion-ios-skipforward"></i></span>
+            <span><i class="ion-ios-refresh-empty"></i></span>
+          </div>
+          <div class="progress">
+            <span class="current-time">02:45</span>
+            <div class="slider" data-direction="vertical">
+              <div class="seek-bar">
+                <!-- <div class="seek-pin"></div> -->
+              </div>
+            </div>
+            <span class="total-time">01:20</span>
+          </div>
+        </div>
+        <div class="media-row volume">
+          <span class="queue"><i class="ion-android-arrow-dropdown"></i></span>
+          <span><i class="ion-android-volume-up"></i></span>
+          <div class="slider" data-direction="vertical">
+            <div class="volume-bar">
+              <!-- <div class="volume-pin"></div> -->
+            </div>
+          </div>
+          <span class="volume-percent">50%</span>
+        </div>
+      </div>
+    </div>
+    
+    <script src="app.js"></script>
+  </body>
+  </html>

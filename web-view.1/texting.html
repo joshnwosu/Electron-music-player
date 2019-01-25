@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    li {
+      background-color: #444;
+      color: white;
+      padding: 1em;
+      width: 200px;
+      margin: 5px 0;
+      cursor: pointer;
+      border-left: 5px solid transparent
+    }
+    .active {
+      border-left: 5px solid tomato;
+    }
+    li:hover {
+      background-color: #555;
+      color: tomato
+    }
+  </style>
+</head>
+<body>
+  <li>
+      I hope to prove myself after being given the opportunity to lead a sales unit. I will gain the knowledge needed to effectively train and lead a team in order to meet objectives.
+  </li>
+  <li>item one</li>
+  <li>item two</li>
+  <li>item three</li>
+  <li>item for</li>
+
+  <script>
+    let list = document.querySelectorAll('li');
+    list.forEach(el=> {
+      el.addEventListener('click', function() {
+        
+        list.forEach(el=> {
+          el.classList.remove('active')
+        })
+
+        this.classList.add('active')
+
+      });
+    })
+  </script>
+</body>
+</html>
